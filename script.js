@@ -5,7 +5,7 @@ var typed = new Typed("#typing", {
         "IT Support Engineer",
         "Full Stack Java Developer",
         "Hardware & Networking Expert",
-        "Field Engineer"
+        "Field Engineer",
     ],
 
     typeSpeed: 70,
