@@ -1,11 +1,11 @@
 console.log("Portfolio Started...");
 var typed = new Typed("#typing", {
 
-    strings: [
+   strings: [
         "IT Support Engineer",
         "Full Stack Java Developer",
-        "Hardware & Networking Expert",
         "Field Engineer",
+        "Hardware & Networking Expert",
     ],
 
     typeSpeed: 70,
