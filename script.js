@@ -1,21 +1,23 @@
 console.log("Portfolio Started...");
-var typed = new Typed("#typing", {
 
-    strings: [
-        "IT Support Engineer",
-        "Full Stack Java Developer",
-        "Chat process support Engineer",
-        "Field Engineer",
-        "Hardware & Networking Engineer"
-        
-    ],
+document.addEventListener("DOMContentLoaded", function () {
 
-    typeSpeed: 70,
+    new Typed("#typing", {
+        strings: [
+            "IT Support Engineer",
+            "Full Stack Java Developer",
+            "Hardware & Networking Engineer",
+            "Field Engineer"
+        ],
 
-    backSpeed: 40,
-
-    backDelay: 1500,
-
-    loop: true
+        typeSpeed: 60,
+        backSpeed: 35,
+        backDelay: 1200,
+        startDelay: 300,
+        smartBackspace: true,
+        loop: true,
+        showCursor: true,
+        cursorChar: "|"
+    });
 
 });
