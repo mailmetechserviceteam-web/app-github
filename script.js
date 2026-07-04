@@ -4,7 +4,7 @@ var typed = new Typed("#typing", {
     strings: [
         "IT Support Engineer",
         "Full Stack Java Developer",
-        "Hardware & Networking Engineer",
+        "Hardware & Networking Expert",
         "Field Engineer"
     ],
 
